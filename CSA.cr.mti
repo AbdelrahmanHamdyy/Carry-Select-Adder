@@ -1,0 +1,8 @@
+{D:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA/CSA.v} {1 {vlog -work work -stats=none {D:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA/CSA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CarrySelectAdder
+
+Top level modules:
+	CarrySelectAdder
+
+} {} {}}

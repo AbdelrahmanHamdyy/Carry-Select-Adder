@@ -1,0 +1,36 @@
+// CSA Module
+module CarrySelectAdder (
+input [15:0] A,
+input [15:0] B,
+input Cin,
+output [15:0] Sum, 
+output Cout
+);
+
+// Carry
+wire C1, C2, C3;
+
+// Adder
+assign {C1,Sum[3:0]} = A[3:0] + B[3:0] + Cin;
+
+wire [3:0]  sum0, sum1;
+wire carry0, carry1;
+assign {carry0,sum0} = A[7:4] + B[7:4] + 1'b0;
+assign {carry1,sum1} = A[7:4] + B[7:4] + 1'b1;
+assign Sum[7:4] = (C1) ? sum1[3:0] : sum0[3:0];
+assign C2 = (C1) ? carry1 : carry0; 
+
+wire [3:0]  s0, s1;
+wire c0, c1;
+assign {c0,s0} = A[11:8] + B[11:8] + 1'b0;
+assign {c1,s1} = A[11:8] + B[11:8] + 1'b1;
+assign Sum[11:8] = (C2) ? s1[3:0] : s0[3:0];
+assign C3 = (C2) ? c1 : c0; 
+
+wire [3:0]  Sum0, Sum1;
+wire Carry0, Carry1;
+assign {Carry0,Sum0} = A[15:12] + B[15:12] + 1'b0;
+assign {Carry1,Sum1} = A[15:12] + B[15:12] + 1'b1;
+assign Sum[15:12] = (C3) ? Sum1[3:0] : Sum0[3:0];
+assign Cout = (C3) ? Carry1 : Carry0; 
+endmodule

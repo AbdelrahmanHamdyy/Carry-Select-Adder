@@ -1,0 +1,130 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vCarrySelectAdder
+Z0 !s110 1619285524
+!i10b 1
+!s100 H?0`En;Paii`heFfM_jbb1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYeLo0OA0X2dGX62^jWDT>1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA
+w1619233571
+Z4 8CSA.v
+Z5 FCSA.v
+!i122 74
+L0 2 35
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1619285523.000000
+Z8 !s107 CSA.v|D:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA/CSA_tb.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA/CSA_tb.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@carry@select@adder
+vCarrySelectAdder_tb
+R0
+!i10b 1
+!s100 nKSKJ05ezi<R>54_Mg_o51
+R1
+I_A:nTXPE:PKTLP^dWG?9?1
+R2
+R3
+w1619285519
+Z12 8D:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA/CSA_tb.v
+Z13 FD:/University/Uni Material/1st Year/2nd Semester/Logic Design/Labs/CSA/CSA_tb.v
+!i122 74
+L0 3 43
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@carry@select@adder_tb
+vCSA
+Z14 !s110 1619224719
+!i10b 1
+!s100 jV?=AmOG==4ai:8LoL9:f3
+R1
+ImAcQm]zoj0c?mYYj9DjTn2
+R2
+R3
+w1619224716
+R4
+R5
+!i122 57
+L0 1 35
+R6
+r1
+!s85 0
+31
+Z15 !s108 1619224719.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@c@s@a
+vmux_5bit
+!s110 1619203350
+!i10b 1
+!s100 PQLBK4;zDKNAW7NG1PG5`0
+R1
+IAIm=ll4O^Tm_f2oY@LZ:i0
+R2
+R3
+w1619200036
+R4
+R5
+!i122 28
+L0 47 8
+R6
+r1
+!s85 0
+31
+!s108 1619203350.000000
+R8
+R9
+!i113 1
+R10
+R11
+vtestbench
+R14
+!i10b 1
+!s100 1e5Bl>UJ:MSRP63mkUna[1
+R1
+IVcDzA;?USo:_=@XPB62;;0
+R2
+R3
+w1619224715
+R12
+R13
+!i122 57
+L0 3 33
+R6
+r1
+!s85 0
+31
+R15
+R8
+R9
+!i113 1
+R10
+R11

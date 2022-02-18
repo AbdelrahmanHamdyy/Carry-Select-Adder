@@ -1,0 +1,72 @@
+# Compile of CSA_tb.v was successful.
+vsim -gui work.CarrySelectAdder_tb
+# vsim -gui work.CarrySelectAdder_tb 
+# Start time: 19:29:02 on Apr 24,2021
+# Loading work.CarrySelectAdder_tb
+# Loading work.CarrySelectAdder
+add wave -position end  sim:/CarrySelectAdder_tb/a
+add wave -position end  sim:/CarrySelectAdder_tb/b
+add wave -position end  sim:/CarrySelectAdder_tb/cin
+add wave -position end  sim:/CarrySelectAdder_tb/sum
+add wave -position end  sim:/CarrySelectAdder_tb/cout
+run
+# A=0000000000000000, B=0000000000000000, Cin=0, Sum=0000000000000000, Cout=0
+# A=0001011000100111, B=1100001101010000, Cin=1, Sum=1101100101111000, Cout=0
+# A=0010111101000010, B=0001000110110100, Cin=0, Sum=0100000011110110, Cout=0
+# A=0001111010100010, B=1010101101110010, Cin=1, Sum=1100101000010101, Cout=0
+# A=0000110111011010, B=0000001111100111, Cin=0, Sum=0001000111000001, Cout=0
+# A=0000010000111000, B=1111101100111000, Cin=1, Sum=1111111101110001, Cout=0
+# A=1111111111111111, B=0000000000000000, Cin=1, Sum=0000000000000000, Cout=1
+# A=1111111111111111, B=1111111111111111, Cin=1, Sum=1111111111111111, Cout=1
+# A=0101110111001011, B=1101011110110110, Cin=1, Sum=0011010110000010, Cout=1
+quit -sim
+# End time: 19:29:59 on Apr 24,2021, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 2
+# Compile of CSA_tb.v was successful.
+vsim -gui work.CarrySelectAdder_tb
+# vsim -gui work.CarrySelectAdder_tb 
+# Start time: 19:30:16 on Apr 24,2021
+# Loading work.CarrySelectAdder_tb
+# Loading work.CarrySelectAdder
+add wave -position end  sim:/CarrySelectAdder_tb/a
+add wave -position end  sim:/CarrySelectAdder_tb/b
+add wave -position end  sim:/CarrySelectAdder_tb/cin
+add wave -position end  sim:/CarrySelectAdder_tb/sum
+add wave -position end  sim:/CarrySelectAdder_tb/cout
+run
+# A=    0, B=    0, Cin=0, Sum=    0, Cout=0
+# A= 5671, B=50000, Cin=1, Sum=55672, Cout=0
+# A=12098, B= 4532, Cin=0, Sum=16630, Cout=0
+# A= 7842, B=43890, Cin=1, Sum=51733, Cout=0
+# A= 3546, B=  999, Cin=0, Sum= 4545, Cout=0
+# A= 1080, B=64312, Cin=1, Sum=65393, Cout=0
+# A=65535, B=    0, Cin=1, Sum=    0, Cout=1
+# A=65535, B=65535, Cin=1, Sum=65535, Cout=1
+# A=24011, B=55222, Cin=1, Sum=13698, Cout=1
+quit -sim
+# End time: 19:31:31 on Apr 24,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# Compile of CSA_tb.v was successful.
+vsim -gui work.CarrySelectAdder_tb
+# vsim -gui work.CarrySelectAdder_tb 
+# Start time: 19:32:13 on Apr 24,2021
+# Loading work.CarrySelectAdder_tb
+# Loading work.CarrySelectAdder
+add wave -position end  sim:/CarrySelectAdder_tb/a
+add wave -position end  sim:/CarrySelectAdder_tb/b
+add wave -position end  sim:/CarrySelectAdder_tb/cin
+add wave -position end  sim:/CarrySelectAdder_tb/sum
+add wave -position end  sim:/CarrySelectAdder_tb/cout
+run
+# A=    0, B=    0, Cin=0, Sum=0000000000000000, Cout=0
+# A= 5671, B=50000, Cin=1, Sum=1101100101111000, Cout=0
+# A=12098, B= 4532, Cin=0, Sum=0100000011110110, Cout=0
+# A= 7842, B=43890, Cin=1, Sum=1100101000010101, Cout=0
+# A= 3546, B=  999, Cin=0, Sum=0001000111000001, Cout=0
+# A= 1080, B=64312, Cin=1, Sum=1111111101110001, Cout=0
+# A=65535, B=    0, Cin=1, Sum=0000000000000000, Cout=1
+# A=65535, B=65535, Cin=1, Sum=1111111111111111, Cout=1
+# A=24011, B=55222, Cin=1, Sum=0011010110000010, Cout=1
+quit -sim
+# End time: 19:33:33 on Apr 24,2021, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2
